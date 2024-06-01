@@ -1,0 +1,133 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "..\\..\\test-htmlcss\\reference\\form-desktop.png",
+        "test": "..\\bitmaps_test\\20240218-134635\\form-desktop.png",
+        "selector": "[data-test=\"form\"]",
+        "fileName": "form-desktop.png",
+        "label": "form",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 1,
+        "url": "file://D:\\projects\\html-academy-front\\task-htmlcss\\index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.3595033940693105,
+          "misMatchPercentage": "0.36",
+          "analysisTime": 43
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-htmlcss\\reference\\form-tablet.png",
+        "test": "..\\bitmaps_test\\20240218-134635\\form-tablet.png",
+        "selector": "[data-test=\"form\"]",
+        "fileName": "form-tablet.png",
+        "label": "form",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 1,
+        "url": "file://D:\\projects\\html-academy-front\\task-htmlcss\\index.html",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.9477224963450293,
+          "misMatchPercentage": "0.95",
+          "analysisTime": 33
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-htmlcss\\reference\\form-mobile.png",
+        "test": "..\\bitmaps_test\\20240218-134635\\form-mobile.png",
+        "selector": "[data-test=\"form\"]",
+        "fileName": "form-mobile.png",
+        "label": "form",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 1,
+        "url": "file://D:\\projects\\html-academy-front\\task-htmlcss\\index.html",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 29.967652859960552,
+          "misMatchPercentage": "29.97",
+          "analysisTime": 55
+        },
+        "diffImage": "..\\bitmaps_test\\20240218-134635\\failed_diff_form-mobile.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-htmlcss\\reference\\form-overflow-desktop.png",
+        "test": "..\\bitmaps_test\\20240218-134635\\form-overflow-desktop.png",
+        "selector": "[data-test=\"form\"]",
+        "fileName": "form-overflow-desktop.png",
+        "label": "form-overflow",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 1,
+        "url": "file://D:\\projects\\html-academy-front\\task-htmlcss\\index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 17.746761860174782,
+          "misMatchPercentage": "17.75",
+          "analysisTime": 102
+        },
+        "diffImage": "..\\bitmaps_test\\20240218-134635\\failed_diff_form-overflow-desktop.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-htmlcss\\reference\\form-underflow-mobile.png",
+        "test": "..\\bitmaps_test\\20240218-134635\\form-underflow-mobile.png",
+        "selector": "[data-test=\"form\"]",
+        "fileName": "form-underflow-mobile.png",
+        "label": "form-underflow",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.7,
+        "url": "file://D:\\projects\\html-academy-front\\task-htmlcss\\index.html",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 29.136727766463,
+          "misMatchPercentage": "29.14",
+          "analysisTime": 56
+        },
+        "diffImage": "..\\bitmaps_test\\20240218-134635\\failed_diff_form-underflow-mobile.png"
+      },
+      "status": "fail"
+    }
+  ]
+}

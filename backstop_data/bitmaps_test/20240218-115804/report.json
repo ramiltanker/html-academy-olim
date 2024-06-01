@@ -1,0 +1,134 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "..\\..\\test-htmlcss\\reference\\hero-desktop.png",
+        "test": "..\\bitmaps_test\\20240218-115804\\hero-desktop.png",
+        "selector": "[data-test=\"hero\"]",
+        "fileName": "hero-desktop.png",
+        "label": "hero",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 1,
+        "url": "file://D:\\projects\\html-academy-front\\task-htmlcss\\index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.3269314236111111,
+          "misMatchPercentage": "0.33",
+          "analysisTime": 57
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-htmlcss\\reference\\hero-tablet.png",
+        "test": "..\\bitmaps_test\\20240218-115804\\hero-tablet.png",
+        "selector": "[data-test=\"hero\"]",
+        "fileName": "hero-tablet.png",
+        "label": "hero",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 1,
+        "url": "file://D:\\projects\\html-academy-front\\task-htmlcss\\index.html",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 12.373383620689655,
+          "misMatchPercentage": "12.37",
+          "analysisTime": 112
+        },
+        "diffImage": "..\\bitmaps_test\\20240218-115804\\failed_diff_hero-tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-htmlcss\\reference\\hero-mobile.png",
+        "test": "..\\bitmaps_test\\20240218-115804\\hero-mobile.png",
+        "selector": "[data-test=\"hero\"]",
+        "fileName": "hero-mobile.png",
+        "label": "hero",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 2,
+        "url": "file://D:\\projects\\html-academy-front\\task-htmlcss\\index.html",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 1.4893333333333334,
+          "misMatchPercentage": "1.49",
+          "analysisTime": 29
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-htmlcss\\reference\\hero-overflow-desktop.png",
+        "test": "..\\bitmaps_test\\20240218-115804\\hero-overflow-desktop.png",
+        "selector": "[data-test=\"hero\"]",
+        "fileName": "hero-overflow-desktop.png",
+        "label": "hero-overflow",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 1.5,
+        "url": "file://D:\\projects\\html-academy-front\\task-htmlcss\\index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "engineErrorMsg": "Не удалось найти элемент содержащий текст «богатство кавказской кухни» для тестирования переполнения",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 67.328125,
+          "misMatchPercentage": "67.33",
+          "analysisTime": 263
+        },
+        "diffImage": "..\\bitmaps_test\\20240218-115804\\failed_diff_hero-overflow-desktop.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-htmlcss\\reference\\hero-underflow-tablet.png",
+        "test": "..\\bitmaps_test\\20240218-115804\\hero-underflow-tablet.png",
+        "selector": "[data-test=\"hero\"]",
+        "fileName": "hero-underflow-tablet.png",
+        "label": "hero-underflow",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 1.5,
+        "url": "file://D:\\projects\\html-academy-front\\task-htmlcss\\index.html",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 27.87690033783784,
+          "misMatchPercentage": "27.88",
+          "analysisTime": 130
+        },
+        "diffImage": "..\\bitmaps_test\\20240218-115804\\failed_diff_hero-underflow-tablet.png"
+      },
+      "status": "fail"
+    }
+  ]
+}

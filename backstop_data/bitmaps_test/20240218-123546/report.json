@@ -1,0 +1,135 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "..\\..\\test-htmlcss\\reference\\events-desktop.png",
+        "test": "..\\bitmaps_test\\20240218-123546\\events-desktop.png",
+        "selector": "[data-test=\"events\"]",
+        "fileName": "events-desktop.png",
+        "label": "events",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.7,
+        "url": "file://D:\\projects\\html-academy-front\\task-htmlcss\\index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 1.3002152080344334,
+          "misMatchPercentage": "1.30",
+          "analysisTime": 52
+        },
+        "diffImage": "..\\bitmaps_test\\20240218-123546\\failed_diff_events-desktop.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-htmlcss\\reference\\events-mobile.png",
+        "test": "..\\bitmaps_test\\20240218-123546\\events-mobile.png",
+        "selector": "[data-test=\"events\"]",
+        "fileName": "events-mobile.png",
+        "label": "events",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.7,
+        "url": "file://D:\\projects\\html-academy-front\\task-htmlcss\\index.html",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 47.851993620414675,
+          "misMatchPercentage": "47.85",
+          "analysisTime": 55
+        },
+        "diffImage": "..\\bitmaps_test\\20240218-123546\\failed_diff_events-mobile.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-htmlcss\\reference\\events-tablet.png",
+        "test": "..\\bitmaps_test\\20240218-123546\\events-tablet.png",
+        "selector": "[data-test=\"events\"]",
+        "fileName": "events-tablet.png",
+        "label": "events",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 1,
+        "url": "file://D:\\projects\\html-academy-front\\task-htmlcss\\index.html",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 25.593302224736046,
+          "misMatchPercentage": "25.59",
+          "analysisTime": 76
+        },
+        "diffImage": "..\\bitmaps_test\\20240218-123546\\failed_diff_events-tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-htmlcss\\reference\\events-overflow-desktop.png",
+        "test": "..\\bitmaps_test\\20240218-123546\\events-overflow-desktop.png",
+        "selector": "[data-test=\"events\"]",
+        "fileName": "events-overflow-desktop.png",
+        "label": "events-overflow",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.7,
+        "url": "file://D:\\projects\\html-academy-front\\task-htmlcss\\index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 1.5048621074446038,
+          "misMatchPercentage": "1.50",
+          "analysisTime": 50
+        },
+        "diffImage": "..\\bitmaps_test\\20240218-123546\\failed_diff_events-overflow-desktop.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-htmlcss\\reference\\events-underflow-desktop.png",
+        "test": "..\\bitmaps_test\\20240218-123546\\events-underflow-desktop.png",
+        "selector": "[data-test=\"events\"]",
+        "fileName": "events-underflow-desktop.png",
+        "label": "events-underflow",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.7,
+        "url": "file://D:\\projects\\html-academy-front\\task-htmlcss\\index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.848477602423083,
+          "misMatchPercentage": "0.85",
+          "analysisTime": 52
+        },
+        "diffImage": "..\\bitmaps_test\\20240218-123546\\failed_diff_events-underflow-desktop.png"
+      },
+      "status": "fail"
+    }
+  ]
+}

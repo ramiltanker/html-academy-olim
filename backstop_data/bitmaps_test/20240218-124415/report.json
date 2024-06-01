@@ -1,0 +1,132 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "..\\..\\test-htmlcss\\reference\\events-desktop.png",
+        "test": "..\\bitmaps_test\\20240218-124415\\events-desktop.png",
+        "selector": "[data-test=\"events\"]",
+        "fileName": "events-desktop.png",
+        "label": "events",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.7,
+        "url": "file://D:\\projects\\html-academy-front\\task-htmlcss\\index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.3987326637972262,
+          "misMatchPercentage": "0.40",
+          "analysisTime": 55
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-htmlcss\\reference\\events-mobile.png",
+        "test": "..\\bitmaps_test\\20240218-124415\\events-mobile.png",
+        "selector": "[data-test=\"events\"]",
+        "fileName": "events-mobile.png",
+        "label": "events",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.7,
+        "url": "file://D:\\projects\\html-academy-front\\task-htmlcss\\index.html",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 47.88389154704944,
+          "misMatchPercentage": "47.88",
+          "analysisTime": 65
+        },
+        "diffImage": "..\\bitmaps_test\\20240218-124415\\failed_diff_events-mobile.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-htmlcss\\reference\\events-tablet.png",
+        "test": "..\\bitmaps_test\\20240218-124415\\events-tablet.png",
+        "selector": "[data-test=\"events\"]",
+        "fileName": "events-tablet.png",
+        "label": "events",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 1,
+        "url": "file://D:\\projects\\html-academy-front\\task-htmlcss\\index.html",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 25.751987493715433,
+          "misMatchPercentage": "25.75",
+          "analysisTime": 97
+        },
+        "diffImage": "..\\bitmaps_test\\20240218-124415\\failed_diff_events-tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-htmlcss\\reference\\events-overflow-desktop.png",
+        "test": "..\\bitmaps_test\\20240218-124415\\events-overflow-desktop.png",
+        "selector": "[data-test=\"events\"]",
+        "fileName": "events-overflow-desktop.png",
+        "label": "events-overflow",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.7,
+        "url": "file://D:\\projects\\html-academy-front\\task-htmlcss\\index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.43330543599553645,
+          "misMatchPercentage": "0.43",
+          "analysisTime": 52
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-htmlcss\\reference\\events-underflow-desktop.png",
+        "test": "..\\bitmaps_test\\20240218-124415\\events-underflow-desktop.png",
+        "selector": "[data-test=\"events\"]",
+        "fileName": "events-underflow-desktop.png",
+        "label": "events-underflow",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.7,
+        "url": "file://D:\\projects\\html-academy-front\\task-htmlcss\\index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.35489399011637174,
+          "misMatchPercentage": "0.35",
+          "analysisTime": 60
+        }
+      },
+      "status": "pass"
+    }
+  ]
+}

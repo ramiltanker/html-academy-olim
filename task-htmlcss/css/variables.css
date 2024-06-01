@@ -1,0 +1,63 @@
+:root {
+  --background-color-secondary: #d2691e;
+  --background-color-tertiary: #f0ead6;
+  --color-primary: #ffffff;
+  --color-secondary: #513833;
+  --color-tertiary: #d2691e;
+  --transition-primary-type: 200ms ease;
+
+  --desktop-width: 1440px;
+  --tablet-width: 768px;
+
+  --font-family-primary:
+    "Montserrat",
+    -apple-system,
+    blinkmacsystemfont,
+    "Segoe UI",
+    "Roboto",
+    "Helvetica",
+    "Arial",
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol";
+
+  --font-family-secondary:
+    "Playfair",
+    -apple-system,
+    blinkmacsystemfont,
+    "Segoe UI",
+    "Roboto",
+    "Helvetica",
+    "Arial",
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol";
+
+  --font-size-s: 12px;
+  --font-size-m: 14px;
+  --font-size-l: 16px;
+  --font-size-xl: 18px;
+
+  --font-weight-normal: 400;
+  --font-weight-semi-bold: 500;
+  --font-weight-bold: 600;
+  --font-weight-extra-bold: 700;
+  --font-weight-super-bold: 800;
+
+  --font-size-title-h1-l: 77px;
+  --font-size-title-h1-m: 56px;
+  --font-size-title-h1-s: 35px;
+
+  --font-size-title-h2-l: 35px;
+  --font-size-title-h2-m: 24px;
+  --font-size-title-h2-s: 20px;
+
+  --font-size-title-h3-l: 24px;
+
+  --input-bg-color-primary: #ffebcd;
+  --input-border-color-primary: #fbd2b4;
+
+  --input-placeholder-color-primary: #9b9898;
+}

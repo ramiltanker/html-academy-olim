@@ -1,0 +1,180 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "..\\..\\test-js\\component-4\\reference\\range_31.png",
+        "test": "..\\bitmaps_test\\20240218-191641\\range_31.png",
+        "selector": "#slider-3",
+        "fileName": "range_31.png",
+        "label": "range 3.1",
+        "misMatchThreshold": 2,
+        "url": "file://D:\\projects\\html-academy-front\\task-js\\component-4\\index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 4.049085850556438,
+          "misMatchPercentage": "4.05",
+          "analysisTime": 16
+        },
+        "diffImage": "..\\bitmaps_test\\20240218-191641\\failed_diff_range_31.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-js\\component-4\\reference\\range_32.png",
+        "test": "..\\bitmaps_test\\20240218-191641\\range_32.png",
+        "selector": "#slider-3",
+        "fileName": "range_32.png",
+        "label": "range 3.2",
+        "misMatchThreshold": 2,
+        "url": "file://D:\\projects\\html-academy-front\\task-js\\component-4\\index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 8.009737678855327,
+          "misMatchPercentage": "8.01",
+          "analysisTime": 12
+        },
+        "diffImage": "..\\bitmaps_test\\20240218-191641\\failed_diff_range_32.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-js\\component-4\\reference\\range_33.png",
+        "test": "..\\bitmaps_test\\20240218-191641\\range_33.png",
+        "selector": "#slider-3",
+        "fileName": "range_33.png",
+        "label": "range 3.3",
+        "misMatchThreshold": 2,
+        "url": "file://D:\\projects\\html-academy-front\\task-js\\component-4\\index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 9.40779014308426,
+          "misMatchPercentage": "9.41",
+          "analysisTime": 11
+        },
+        "diffImage": "..\\bitmaps_test\\20240218-191641\\failed_diff_range_33.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-js\\component-4\\reference\\range_34.png",
+        "test": "..\\bitmaps_test\\20240218-191641\\range_34.png",
+        "selector": "#slider-3",
+        "fileName": "range_34.png",
+        "label": "range 3.4",
+        "misMatchThreshold": 2,
+        "url": "file://D:\\projects\\html-academy-front\\task-js\\component-4\\index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 4.453497615262321,
+          "misMatchPercentage": "4.45",
+          "analysisTime": 14
+        },
+        "diffImage": "..\\bitmaps_test\\20240218-191641\\failed_diff_range_34.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-js\\component-4\\reference\\range_35.png",
+        "test": "..\\bitmaps_test\\20240218-191641\\range_35.png",
+        "selector": "#slider-3",
+        "fileName": "range_35.png",
+        "label": "range 3.5",
+        "misMatchThreshold": 2,
+        "url": "file://D:\\projects\\html-academy-front\\task-js\\component-4\\index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 4.591613672496026,
+          "misMatchPercentage": "4.59",
+          "analysisTime": 11
+        },
+        "diffImage": "..\\bitmaps_test\\20240218-191641\\failed_diff_range_35.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-js\\component-4\\reference\\range_36.png",
+        "test": "..\\bitmaps_test\\20240218-191641\\range_36.png",
+        "selector": "#slider-3",
+        "fileName": "range_36.png",
+        "label": "range 3.6",
+        "misMatchThreshold": 2,
+        "url": "file://D:\\projects\\html-academy-front\\task-js\\component-4\\index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 7.102543720190779,
+          "misMatchPercentage": "7.10",
+          "analysisTime": 11
+        },
+        "diffImage": "..\\bitmaps_test\\20240218-191641\\failed_diff_range_36.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-js\\component-4\\reference\\range_37.png",
+        "test": "..\\bitmaps_test\\20240218-191641\\range_37.png",
+        "selector": "#slider-3",
+        "fileName": "range_37.png",
+        "label": "range 3.7",
+        "misMatchThreshold": 2,
+        "url": "file://D:\\projects\\html-academy-front\\task-js\\component-4\\index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 11.490461049284578,
+          "misMatchPercentage": "11.49",
+          "analysisTime": 12
+        },
+        "diffImage": "..\\bitmaps_test\\20240218-191641\\failed_diff_range_37.png"
+      },
+      "status": "fail"
+    }
+  ]
+}

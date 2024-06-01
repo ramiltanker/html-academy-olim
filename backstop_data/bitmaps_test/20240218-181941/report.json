@@ -1,0 +1,54 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "..\\..\\test-js\\component-4\\reference\\range_11.png",
+        "test": "..\\bitmaps_test\\20240218-181941\\range_11.png",
+        "selector": "#slider-1",
+        "fileName": "range_11.png",
+        "label": "range 1.1",
+        "misMatchThreshold": 2,
+        "url": "file://D:\\projects\\html-academy-front\\task-js\\component-4\\index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 6.565977742448331,
+          "misMatchPercentage": "6.57",
+          "analysisTime": 10
+        },
+        "diffImage": "..\\bitmaps_test\\20240218-181941\\failed_diff_range_11.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-js\\component-4\\reference\\range_12.png",
+        "test": "..\\bitmaps_test\\20240218-181941\\range_12.png",
+        "selector": "#slider-1",
+        "fileName": "range_12.png",
+        "label": "range 1.2",
+        "misMatchThreshold": 2,
+        "url": "file://D:\\projects\\html-academy-front\\task-js\\component-4\\index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 1.2241653418124006,
+          "misMatchPercentage": "1.22",
+          "analysisTime": 11
+        }
+      },
+      "status": "pass"
+    }
+  ]
+}

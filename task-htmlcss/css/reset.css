@@ -1,0 +1,23 @@
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+a {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+  border: 0;
+}
